@@ -1,0 +1,22 @@
+{
+	"name": "dektrium/yii2-passfield",
+	"description": "Passfield widget for Yii2",
+	"keywords": ["passfield", "dektrium", "yii2"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dmitry Erofeev",
+			"email": "dmeroff@gmail.com",
+			"homepage": "http://dmeroff.ru"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"dektrium\\passfield\\": ""
+		}
+	}
+}
