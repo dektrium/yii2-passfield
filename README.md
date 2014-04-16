@@ -30,7 +30,7 @@ Usage
 If you are using active form you can all the widget as follows:
 
 ```php
-<?= Passfield::widget([
+<?= \dektrium\passfield\Passfield::widget([
     'form'      => $form,      // active form instance
     'model'     => $model,     // your model
     'attribute' => 'password', // model attribute name
@@ -41,7 +41,7 @@ If you are using active form you can all the widget as follows:
 Or if you are not using active form:
 
 ```php
-<?= Passfield::widget([
+<?= \dektrium\passfield\Passfield::widget([
     'name'   => 'password', // the input name
     'config' => []          // passfield configuration
 ]) ?>
